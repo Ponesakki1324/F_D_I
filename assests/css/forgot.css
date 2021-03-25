@@ -14,7 +14,7 @@ body {
 .forgot {
     background-color: #fff;
     padding: 12px;
-    border: 1px solid #dfdfdf
+    border: 1px solid #dfdfdf;
 }
 
 .padding-bottom-3x {
@@ -22,7 +22,8 @@ body {
 }
 
 .card-footer {
-    background-color: #fff
+    background-color: #fff;
+    margin-right: auto;
 }
 
 .btn {
