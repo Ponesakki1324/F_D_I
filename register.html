@@ -10,15 +10,8 @@
 
 		<!-- STYLE CSS -->
 		<link rel="stylesheet" href="./assests/css/register.css">
-		<script>
-function validateForm() {
-  var x = document.forms["register"]["UserName"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
-</script>
+		
+
 	</head>
 
 	<body>
@@ -28,7 +21,7 @@ function validateForm() {
 				<div class="image-holder">
 					<img src="../assests/images/Logo.png" alt="">
 				</div>
-				<form name="register" action="" onsubmit="return validateForm()">
+				<form name="register" action="">
 					<h3 style="font-family:title;">New User</h3>
 					<div class="form-wrapper">
 						<input type="text" placeholder="UserName" class="form-control"required>
@@ -70,7 +63,7 @@ function validateForm() {
 						<input type="text" placeholder="Address" class="form-control"required>
 						<i class="zmdi zmdi-pin"></i>
 					</div>
-					<button type="submit" class="btn btn-success">Register</button>
+					<button type="submit" class="btn btn-success"><a href="home.html">Register</a></button>
 					<div class="pcontainer">
 						<p style="text-align: center;">Have an account?<a href="login.html">Login</a></p>
 					</div>
