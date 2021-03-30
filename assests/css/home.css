@@ -15,10 +15,12 @@ html, body { height: 100%;}
 
 .img-modal .modal-content, .img-modal .modal-body, .img-modal .row, .img-modal .modal-image {
     height: 100%;
+    /* padding: 10px; */
 }
 
 .modal-content {
     border-radius: 0;
+    padding: 10px; 
 }
 
 .modal-body {
@@ -33,7 +35,7 @@ html, body { height: 100%;}
 
 .modal-image img {
     margin: 0 auto;
-    max-height: 100%;
+    max-height: 75%;
     max-width: 100%;
     
     position: relative;
@@ -116,7 +118,8 @@ html, body { height: 100%;}
     left: 0;
     right: 0;
     padding: 5px;
-    border-top: solid 1px #ccc;
+    margin-top: 20px;
+    /* border-top: solid 1px #ccc; */
 }
 
 .img-modal .img-comment-list {
