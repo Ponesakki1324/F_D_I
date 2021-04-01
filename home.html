@@ -5,80 +5,97 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="home.js"></script>
-<link href="./assests/css/home.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assests/css/home.css">
 </head>
 <body>
-  <div class="modal img-modal">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-8 modal-image">
-              <img class="img-responsive " src="./assests/images/Pizza.jpg">
-              <img class="img-responsive hidden" src="./assests/images/Chappathi.jpg" />
-              <img class="img-responsive hidden" src="./assests/images/Apple.jpg" />
-  
-              <a href="" class="img-modal-btn left"><i class="glyphicon glyphicon-chevron-left"></i></a>
-              <a href="" class="img-modal-btn right"><i class="glyphicon glyphicon-chevron-right"></i></a>
-              <i class="btn btn-info btn-lg">
-                <span class="glyphicon glyphicon-thumbs-up"></span> Like</i>
-            </div>
-            <div class="col-md-4 modal-meta">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <!-- <a href=""><span class="navbar-toggler-icon"></span></a> -->
+        <!-- </button> -->
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- <ul class="navbar-nav mr-auto"> -->
+            <!-- <li class="nav-item active"> -->
+                <!-- <i class="bi bi-person"></i><br> -->
+              <a class="nav-link" href="profile.html">Profile <span class="sr-only"></span></a><br>
+            <!-- </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a><br>
+            </li>
+            
               
-              <div class="modal-meta-top">
-                <button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                <div class="img-poster clearfix">
-                  <a href=""><img class="img-circle" src="./assests/images/User.png"></a>
-                  <strong><a href="">ponnibpse1324</a></strong>
-                  <span>12 minutes ago</span>
-                </div>
-  
-                <ul class="img-comment-list">
-                  <li>
-                    <div class="comment-img">
-                      <img src="./assests/images/User.png">
-                    </div>
-                    <div class="comment-text">
-                      <strong><a href="">ponnibpse1324</a></strong>
-                      <p>Hello this is a test comment.</p> <span class="date sub-text">on December 5th, 2016</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="comment-img">
-                      <img src="./assests/images/User.png">
-                    </div>
-                    <div class="comment-text">
-                      <strong><a href="">ponnibpse1324</a></strong>
-                      <p>Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p> <span>on December 5th, 2016</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="comment-img">
-                      <img src="./assests/images/User.png">
-                    </div>
-                    <div class="comment-text">
-                      <strong><a href="">ponnibpse1324</a></strong>
-                      <p class="">Hello this is a test comment.</p> <span class="date sub-text">on December 5th, 2016</span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="modal-meta-bottom">
-                <input type="text" class="form-control" placeholder="Leave a commment.."/><i class="
-                glyphicon glyphicon-camera"></i>
-              </div>
-            </div>
+              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Settings</a>
+            <!-- </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          <!-- </ul> -->
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <!-- <li class="nav-item dropdown"> -->
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Add Posts
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Donate Food</a><br></li>
+            <li><a class="dropdown-item" href="#">Carry Food</a><br></li>
+            <li><a class="dropdown-item" href="#">Need Food</a></li>
+            <div class="dropdown-divider"></div>
+            
+            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
           </div>
+        <!-- </li> -->
+          <button><i class="bi bi-bell"></i>
+          </button>
+        
+      </nav>
+  <div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
+            <div class="col-md-6">
+                <div class="box box-widget">
+                    <div class="box-header with-border">
+                        <div class="user-block"> 
+                            <img class="img-circle" src="https://img.icons8.com/color/36/000000/guest-male.png" alt="User Image"> <span class="username"><a href="#" data-abc="true">Henery German</a></span> <span class="description">Public - 7:30 PM Today</span> 
+                        </div>
+                        <div class="box-tools"> 
+                      </div>
+                    </div>
+                    <div class="box-body"> <img class="img-responsive pad" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557148425/woman-570883_1280.jpg" alt="Photo">
+                        <p>Look at the beach photo i clicked</p> <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button> <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button> <span class="pull-right text-muted">127 likes - 3 comments</span>
+                    </div>
+                    <div class="box-footer box-comments">
+                        <div class="box-comment"> <img class="img-circle img-sm" src="https://img.icons8.com/office/36/000000/person-female.png" alt="User Image">
+                            <div class="comment-text"> <span class="username"> Tina Domiaz <span class="text-muted pull-right">8:03 PM Today</span> </span> For what reason would it be advisable for me to think about business content? </div>
+                        </div>
+                        <div class="box-comment"> <img class="img-circle img-sm" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="User Image">
+                            <div class="comment-text"> <span class="username"> Smith helm <span class="text-muted pull-right">8:03 PM Today</span> </span>
+                                That might be little bit risky to have crew member like them. </div>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <form action="#" method="post"> <img class="img-responsive img-circle img-sm" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="Alt Text">
+                            <div class="img-push"> <input type="text" class="form-control input-sm" placeholder="Press enter to post comment"> </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-    
-  </div>
-  
-  <!-- <p class="text-center text-muted">Updated Dec. 5th 2016 with basic responsive styles</p> -->
+    </div>
+</div>  
+</div>  
 </body>
 </html>
