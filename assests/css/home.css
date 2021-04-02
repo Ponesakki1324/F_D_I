@@ -7,10 +7,26 @@
     width: 100%;
     min-width: 100%
 }
-
+.navbar
+{
+    background-color: whitesmoke;
+}
+.nav-link
+{
+  
+    padding-right: 20px;
+}
 body {
-    background-color: #f9f9fa;
+    background-color:whitesmoke;
     
+}
+.dropdown-menu
+{
+    margin-left: 1000px;
+    /* width: 100px; */
+    border: 1px solid black;
+    /* padding-left: 1000px; */
+    background-color: whitesmoke;
 }
 
 .flex {
@@ -44,14 +60,14 @@ body {
     position: relative;
     border-radius: 3px;
     background: #ffffff;
-    border-top: 3px solid #d2d6de;
+    border-top: 3px solid #fcfdfd;
     margin-bottom: 20px;
     width: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
 }
 
 .box-header.with-border {
-    border-bottom: 1px solid #f4f4f4
+    border-bottom: 1px solid #7a7878
 }
 
 .box-header {
@@ -88,7 +104,7 @@ body {
 }
 
 .user-block .description {
-    color: #999;
+    color: rgb(27, 26, 26);
     font-size: 13px
 }
 
