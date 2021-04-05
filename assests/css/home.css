@@ -9,7 +9,7 @@
 }
 .navbar
 {
-    background-color: whitesmoke;
+    background-color: rgb(252, 179, 23);
 }
 .nav-link
 {
@@ -23,10 +23,8 @@ body {
 .dropdown-menu
 {
     margin-left: 1000px;
-    /* width: 100px; */
     border: 1px solid black;
-    /* padding-left: 1000px; */
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
 }
 
 .flex {
