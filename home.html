@@ -19,24 +19,24 @@
 <body>
     
   <div class="page-content page-container" id="page-content">
-      
-    <div class="padding">
+<div class="padding">
+    <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <a class="nav-link" href="profile.html">Profile <span class="sr-only"></span></a><br>
               <a class="nav-link" href="#">Home</a><br>
               <a class="nav-link" href="#">Contact</a>
               <a class="nav-link" href="#">Settings</a>
-              
+              <!-- Search Bar -->
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                <!-- Dropdown Link -->
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Add Posts</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Donate Food</a></li>
                   <li><a class="dropdown-item" href="#">Carry Food</a></li>
                   <li><a class="dropdown-item" href="#">Need Food</a></li>
-                   <!-- <div class="dropdown-divider"></div> -->
                 </div>
                 <a class="nav-link" href="#">Notifications</a>
                 <a class="nav-link" href="#">Logout</a>
@@ -46,15 +46,33 @@
             <div class="col-md-6">
                 <div class="box box-widget">
                     <div class="box-header with-border">
+                        <!-- User Profile -->
                         <div class="user-block"> 
                             <img class="img-circle" src="https://img.icons8.com/color/36/000000/guest-male.png" alt="User Image"> <span class="username"><a href="#" data-abc="true">Henery German</a></span> <span class="description">Public - 7:30 PM Today</span> 
                         </div>
                         <div class="box-tools"> 
                       </div>
                     </div>
-                    <div class="box-body"> <img class="img-responsive pad" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557148425/woman-570883_1280.jpg" alt="Photo">
-                        <p>Look at the beach photo i clicked</p> <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button> <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button> <span class="pull-right text-muted">127 likes - 3 comments</span>
+                    <!-- Post Image -->
+                    <div class="box-body"> 
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"></div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"></div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        <img class="img-responsive pad" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557148425/woman-570883_1280.jpg" alt="Photo">
+                        <!-- Caption -->
+                        <p>Look at the beach photo i clicked</p> 
+                        <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button> <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button> <span class="pull-right text-muted">127 likes - 3 comments</span>
                     </div>
+                    <!-- Comments -->
                     <div class="box-footer box-comments">
                         <div class="box-comment"> <img class="img-circle img-sm" src="https://img.icons8.com/office/36/000000/person-female.png" alt="User Image">
                             <div class="comment-text"> <span class="username"> Tina Domiaz <span class="text-muted pull-right">8:03 PM Today</span> </span> For what reason would it be advisable for me to think about business content? </div>
@@ -85,7 +103,8 @@
                 <div class="box-tools"> 
               </div>
             </div>
-            <!-- <div class="box-body"> <img class="img-responsive pad" src="https://images.unsplash.com/photo-1611916020755-2ca5aa57aa0b?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4fF9oYi1kbDRRLTRVfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Photo"> -->
+            <div class="box-body"> 
+               <!-- Slider -->
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
