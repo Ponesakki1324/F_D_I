@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="assests/css/image.css" rel="stylesheet">
+</head>
+<body>
+    <div class="panel-body">
+        <div class="input-group image-preview">
+            <input placeholder="" type="text" class="form-control image-preview-filename" disabled="disabled">
+            <!-- don't give a name === doesn't send on POST/GET --> 
+            <span class="input-group-btn"> 
+            <!-- image-preview-clear button -->
+            <button type="button" class="btn btn-default image-preview-clear" style="display:none;"> <span class="glyphicon glyphicon-remove"></span> Clear </button>
+            <!-- image-preview-input -->
+            <div class="btn btn-default image-preview-input"> <span class="glyphicon glyphicon-folder-open"></span> <span class="image-preview-input-title">Browse</span>
+                <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/>
+                <!-- rename it --> 
+            </div>
+            <button type="button" class="btn btn-labeled btn-default"> <span class="btn-label"><i class="glyphicon glyphicon-upload"></i> </span>Upload</button>
+            </span> </div>
+</body>
+</html>
